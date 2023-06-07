@@ -1,0 +1,6 @@
+task:
+- cmd:
+  - covid_collector
+  - covid_reporter
+  - covid_publication
+  type: seq

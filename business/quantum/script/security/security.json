@@ -1,0 +1,16 @@
+{
+"users": [
+  {
+    "firstname": "TOURRES",
+    "lastname": "Emmanuel",
+    "user": "etourres",
+    "auth": "",
+    "key": "",
+    "role": [
+      "adm"
+    ]
+  }
+],
+  "roles": [{"id" :"", "name": "root" , "description" : "root" , "ftc" : ["all"] }, {"id" :"", "name": "adm" , "description" : "administrator" , "ftc" : ["create_prj","run_script" ] },  {"id" :"", "name": "script_running" , "description" : "lancer les scripts","ftc" : ["all", "run_script"] }, {"id" :"", "name": "dev" , "description" : "developpeur","ftc" : ["all", "run_script"] } ],
+  "fonctions" :[ { "name" :  "all"},{ "name" :  "create_prj"}, {  "name" : "run_script" } , {  "name" : "run_script_collector" } , {  "name" : "run_script_reporter" }, {  "name" : "run_script_publication" }]
+}

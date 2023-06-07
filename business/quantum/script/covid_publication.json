@@ -1,0 +1,22 @@
+{
+  "name": "covid_publication",
+  "contend": {
+    "source_name": "ag",
+    "data": [
+
+    ],
+    "actions": [
+        {
+        "cmd": "tocsv",
+        "class": "agregation.lib.action_to_csv",
+        "method": "tocsv",
+        "path": "covidresult",
+        "input_file": "covidresult.zip",
+        "in": "result"
+      }
+
+    ]
+  },
+  "mapping": [
+  ]
+}

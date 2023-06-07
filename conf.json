@@ -1,0 +1,87 @@
+{
+    "key": "",
+    "services": [
+        {
+            "desciption": "ServiceAutoPy - interface AWS Dynamo DB GraphQL ",
+            "port": 8008,
+            "service_name": "ServiceAutoPyGraphQLAWS",
+            "sources": {
+                "Name": "ServiceIntAwsGraphQL",
+                "ProcessOptions": {
+                    "ArgumentList": "C:\\Users\\etourres\\Documents\\1-dev\\AutoPy\\AutoPyInterfaceProject\\AutoPyInterfaceProjectAwsGraphQL",
+                    "FilePath": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.3.2\\bin\\idea64.exe",
+                    "WorkingDirectory": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.3.2\\bin"
+                },
+                "Type": "IntelliJIDEA"
+            },
+            "url": "localhost"
+        },
+        {
+            "desciption": "ServiceAutoPy - interface AWS Dynamo DB REST",
+            "port": 8082,
+            "service_name": "ServiceAutoPyRestAWS",
+            "sources": {
+                "Name": "ServiceIntAwsRest",
+                "ProcessOptions": {
+                    "ArgumentList": "C:\\Users\\etourres\\Documents\\1-dev\\AutoPy\\AutoPyInterfaceProject\\AutoPyInterfaceProjectAws",
+                    "FilePath": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.3.2\\bin\\idea64.exe",
+                    "WorkingDirectory": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2022.3.2\\bin"
+                },
+                "Type": "PyCharm"
+            },
+            "url": "localhost"
+        },
+        {
+            "desciption": "ServiceAutoPy ingerface GCP ",
+            "port": 8009,
+            "service_name": "ServiceAutoPyGraphQLGCP",
+            "sources": {},
+            "url": "localhost"
+        },
+        {
+            "desciption": "Auto core ",
+            "port": 5003,
+            "service_name": "ServiceAutoPyCore",
+            "sources": {
+                "Name": "AutoPyCore",
+                "ProcessOptions": {
+                    "ArgumentList": "C:\\Users\\etourres\\PycharmProjects\\pythonProject",
+                    "FilePath": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin\\pycharm64.exe",
+                    "WorkingDirectory": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin "
+                },
+                "Type": "PyCharm"
+            },
+            "url": "localhost"
+        },
+        {
+            "desciption": "Service AutoPy ",
+            "port": 5008,
+            "service_name": "ServiceAutoPyCli",
+            "sources": {
+                "Name": "AutoPyCli",
+                "ProcessOptions": {
+                    "ArgumentList": "C:\\Users\\etourres\\PycharmProjects\\autopy_swagger",
+                    "FilePath": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin\\pycharm64.exe",
+                    "WorkingDirectory": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+                },
+                "Type": "PyCharm"
+            },
+            "url": "localhost"
+        },
+        {
+            "desciption": "Service AutoPy Interafce Rest Az Consmos Db ",
+            "port": 5004,
+            "service_name": "ServiceAutoPyAzRest",
+            "sources": {
+                "Name": "AutoPyCli",
+                "ProcessOptions": {
+                    "ArgumentList": "C:\\Users\\etourres\\PycharmProjects\\pythonProject",
+                    "FilePath": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin\\pycharm64.exe",
+                    "WorkingDirectory": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3.2\\bin"
+                },
+                "Type": "PyCharm"
+            },
+            "url": "localhost"
+        }
+    ]
+}

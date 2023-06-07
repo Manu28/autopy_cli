@@ -1,0 +1,19 @@
+{
+  "name": "covid_collector",
+  "contend": {
+    "source_name": "ag",
+    "data": [
+    ],
+    "actions": [
+     {
+"cmd":"collect_covid",
+"class":"buisiness.covid.lib.ActionCollectCovid",
+"method":"collect_covid",
+"path":"collect_covid",
+"in":"result"
+}
+    ]
+  },
+  "mapping": [
+  ]
+}

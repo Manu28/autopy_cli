@@ -1,0 +1,5 @@
+{
+   "input" : { "name": "covid_conf_stat" , "inputpath" : "./data/donnees-hospitalieres-relatives-a-lepidemie-de-covid-jour.csv" } ,
+   "lib" : { "name" : "covid_conf_stat" , "class": "spark.lib.StatCovidSpark"  , "method" : "get_stat_covid_report" },
+   "output" : { "name": "covid_conf_stat" , "outputpath" : "./data/report-hospitalieres-relatives-a-lepidemie-de-covid-jour" }
+}

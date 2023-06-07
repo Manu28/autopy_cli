@@ -1,0 +1,39 @@
+{
+  "name": "covid_reporter",
+  "contend": {
+    "source_name": "ag",
+    "data": [
+            {
+        "name": "csvfileA",
+        "i": "0",
+        "type": "in",
+        "collect_object": "Collector.lib.CsvCollector",
+
+        "value": "None"
+      },
+       {
+        "name": "csvfileT",
+        "i": "0",
+        "type": "in",
+        "collect_object": "Collector.lib.CsvCollectorSpark",
+
+        "value": "None"
+      }
+    ],
+    "actions": [
+       {
+        "cmd": "ActionSQLSpark",
+        "class": "",
+        "method": "sql_spark",
+        "input_file": "covid_conf_stat.json",
+
+        "in": [
+          "csvfileT"
+        ]
+      }
+
+    ]
+  },
+  "mapping": [
+  ]
+}

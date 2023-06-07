@@ -1,0 +1,21 @@
+{
+  "name": "report_optim_az_quant",
+  "contend": {
+    "source_name": "optim_az_quantum",
+    "type": "sub_program",
+    "inputvalue": [],
+    "data": [],
+    "actions": [
+      {
+        "cmd": "optim_az_quantum",
+        "class": "",
+        "method": "optim_az_quantum",
+        "input_file": "./data/container_weights.csv",
+        "in": []
+      }
+    ]
+  }
+  ,
+  "mapping": [
+  ]
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "merge",
+    "class": "automate.actions.action_merge.ActionMerge"
+  },
+  {
+    "name": "print",
+    "class": "automate.actions.action_print.ActionPrint"
+  },
+
+  {
+    "name": "tocsv",
+    "class": "automate.actions.action_to_csv.ActionToCsv",
+     "param": "path"
+  },
+  {
+    "name": "collect",
+    "class": "automate.actions.action_collect.ActionCollect",
+    "param": "collect"
+  },
+  {
+    "name": "collect_csv",
+    "class": "automate.actions.action_collect.ActionCollectCsv",
+    "param": "path"
+  },
+  {
+    "name": "to_az_storage_table",
+    "class": "automate.actions.action_to_az_storage_table.ActionToAzStorageTable",
+     "param": "ref"
+  },
+  {
+    "name": "collect_csv_spark",
+    "class": "automate.actions.action_collect.ActionCollectCsvSpark",
+    "param": "path"
+  },
+  {
+    "name": "sql_spark",
+    "class": "automate.actions.action_spark.ActionSQLSpark",
+    "param": "path"
+  },
+  {
+    "name": "run",
+    "class": "automate.actions.action_run.ActionRun",
+    "param": "self"
+  },
+  {
+    "name": "run_iter",
+    "class": "automate.actions.action_run_iter.ActionRunIter",
+    "param": "run_iter"
+  },
+  {
+    "name": "mapto",
+    "class": "automate.actions.action_map_to.ActionMapTo",
+    "param": "run_map_to"
+  },
+  {
+    "name": "controldata",
+    "class": "automate.actions.action_print.ActionPrint"
+  }
+  ,
+  {
+    "name": "collect_covid",
+    "class": "business.covid.action.lib.ActionCollectCovid"
+  },
+   {
+    "name": "collect_aws_dynamodb",
+    "class": "automate.actions.collector.aws.action_collector_aws_dynamodb.ActionCollectorAwsDynamoDb",
+    "param": "path"
+  }
+]
